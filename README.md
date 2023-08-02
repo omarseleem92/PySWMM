@@ -23,3 +23,6 @@ The SWMM model is not thread-safe, which means that only one model can be opened
 2. Utilize threads to handle the various jobs in the queue. Each thread represents a simulation that can run in parallel, and the number of threads depends on the system's capabilities.
 3. Within the worker function, call a subprocess to execute the 'pyswmm_wrapper.py' file, where we can make the desired changes to the SWMM model
 
+## References:
+Lerer, S.M., Guidje, A.H., Drenck, K.M.L., Jakobsen, C.C., Arnbjerg-Nielsen, K., Mikkelsen, P.S. and Sørup, H.J.D., 2022. Constructing an inventory for fast screening of hydraulic and hydrologic performance of stormwater control measures. Blue-Green Systems, 4(2), pp.213–229.
+
